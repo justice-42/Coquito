@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coquito Recipe</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="coquito.html">Home</a></li>
+        <li><a href="recipe.html">Recipe</a></li>
+        <li><a href="funfacts.html">Fun Facts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="recipe">
+      <h1>Coquito Recipe</h1>
+      <p>Follow this simple recipe to create the perfect Coquito!</p>
+
+      <h2>Ingredients</h2>
+      <table class="ingredients-table">
+        <thead>
+          <tr>
+            <th>Ingredient</th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Coconut Milk</td>
+            <td>2 cans</td>
+          </tr>
+          <tr>
+            <td>Sweetened Condensed Milk</td>
+            <td>1 can</td>
+          </tr>
+          <tr>
+            <td>Evaporated Milk</td>
+            <td>1 can</td>
+          </tr>
+          <tr>
+            <td>Cinnamon</td>
+            <td>1 tsp</td>
+          </tr>
+          <tr>
+            <td>Vanilla Extract</td>
+            <td>1 tsp</td>
+          </tr>
+          <tr>
+            <td>White Rum</td>
+            <td>1 cup</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Preparation Steps</h2>
+      <ol>
+        <li>In a blender, combine coconut milk, sweetened condensed milk, evaporated milk, and vanilla extract.</li>
+        <li>Add cinnamon and rum. Blend until smooth.</li>
+        <li>Refrigerate for at least 4 hours before serving.</li>
+        <li>Serve chilled in small glasses, garnished with a sprinkle of cinnamon.</li>
+      </ol>
+
+      <h2>Feedback</h2>
+      <form action="#" method="post">
+        <label for="feedback">Your Feedback:</label>
+        <input type="text" id="feedback" name="feedback" placeholder="Write your feedback..." required pattern="[A-Za-z\s]+" title="Letters and spaces only.">
+        <button type="submit">Submit</button>
+      </form>
+      
+      <form action="#" method="post">
+        <label for="rating">Rate this recipe (1-5):</label>
+        <select id="rating" name="rating" required>
+          <option value="1">1 - Poor</option>
+          <option value="2">2 - Fair</option>
+          <option value="3">3 - Good</option>
+          <option value="4">4 - Very Good</option>
+          <option value="5">5 - Excellent</option>
+        </select>
+        <button type="submit">Submit</button>
+      </form>
+      
+    </section>
+  </main>
+
+</body>
+</html>
